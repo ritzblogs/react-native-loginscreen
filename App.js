@@ -6,7 +6,6 @@ import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view
 class App extends React.Component {
   render() {
     return (
-
          
        <ImageBackground
         source={{
@@ -26,14 +25,7 @@ class App extends React.Component {
                 Welcome to my App
              </Text>
 
-
-
-
               <View style={styles.containerInput}>
-
-
-               
-             
 
                 <View style={styles.viewStyle}>
                   <Icon name="user" size={20} color="#000" style={{ alignSelf: "center", alignItems: "center" }} />
