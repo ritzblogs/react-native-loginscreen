@@ -2,8 +2,6 @@ import React from 'react';
 import { StyleSheet, SafeAreaView, ScrollView, Dimensions, KeyboardAvoidingView, TouchableOpacity, Keyboard, Text, View, Button, TextInput, Alert, ImageBackground } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
-import { Content } from 'native-base';
-import { abs } from 'react-native-reanimated';
 
 class App extends React.Component {
   render() {
@@ -90,12 +88,7 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
 
 
-  }, container: {
-    flex: 1,
-    width: "100%",
-    flexDirection: "column",
-    justifyContent: "center"
-  },
+  }, 
 
   backgroundImage: {
     width: "100%",
